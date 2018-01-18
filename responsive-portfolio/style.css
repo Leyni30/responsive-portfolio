@@ -1,0 +1,412 @@
+
+header{
+	background-color: white;
+	width: 960px;
+	margin: auto;
+	height: 70px;
+	padding-right: 20px;
+}
+h1{
+	margin-top: 15px;
+}
+
+
+#a2{
+	border-left: solid; 
+	padding-right: 10px;
+	color: #777777;
+	text-decoration: none;
+	padding-left: 15px;
+}
+#a3{
+	border-left: solid;
+	color: #777777;
+	text-decoration: none;
+	padding-left: 15px;
+}
+#a1{
+	padding-right: 10px;
+	color: #777777;
+	text-decoration: none;
+}
+
+
+
+h1 {
+	color: white;
+	background-color: #4aaaa5;
+	width:10%;
+	height: 70px;
+	padding-left: 60px;
+	padding-right: 60px;
+	display: inline-block;
+	margin: auto;
+}
+
+.header {
+	color:#777777;
+	/*position: relative;
+	right: -600px;*/
+	display: inline-block;
+	bottom: 150px;
+	/**/float: right;
+	font-size: 20px;
+	margin-top: 17px;
+
+}
+
+
+img{
+	width: 20%;
+	height: 20%;
+	
+	float: left;
+	overflow: auto;
+}
+
+.imgp{
+	margin-left: 30px;
+}
+body{
+	width: 960px;
+	background-image: url(./images/dust_scratches.png);
+	margin: auto;
+	position: relative;
+	
+}
+
+.main-content {
+	width: 650px;
+	/*height: 720px;*/
+	display: inline-block;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*height: 900px;*/
+
+
+}
+#portpic1{
+	width: 150px;
+	height: 150px;
+}
+
+.smaller-box {
+
+	float: right;
+	width:270px;
+	display: inline-block;
+	background-color: white;
+	margin-top: 20px;
+	height:250px;
+}
+
+h2 {
+
+	border-bottom: solid;
+	border-width: 4px;
+	border-color: lightgray;
+	padding:28px;
+	color:#4aaaa5;
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+
+#paragraph-1 {
+color: #777777;
+width: 75%;
+
+}
+
+h3{
+color: #4aaaa5;
+text-align: center;
+border-bottom: solid;
+border-width: 3px;
+border-color: lightgray;
+padding-bottom: 30px;
+
+}
+.connect-pics{
+
+	margin-left:20px;
+	
+    
+}
+#cpic1{
+	padding: 10px;
+}
+#cpic2{
+	padding:10px;
+}
+#cpic3{
+	padding:10px;
+}
+
+.footer{
+	 font-family: Arial;
+   font-size: 10px;
+   font-weight: bold;
+   color: lightgray;
+   background-color: #666666 ;
+   text-align: center;
+   padding: 25px;
+   border-top-style: solid;
+   border-top-color: teal;
+   border-width: 7px
+}
+
+.portfolio-pics {
+	padding: 40px;
+	
+
+}
+p{
+	color:#777777;
+	font-family: Georgia;
+
+}
+.submitbtn{
+	background-color: #4aaaa5;
+	color:white;
+	font-family: Georgia;
+	width: 15%;
+	height: 30px;
+	margin-top: 15px;
+}
+.input{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+
+
+@media only screen and (max-width: 980px) {
+	header{
+		width:950px;
+	}
+    
+	
+	#me{
+		float: none;
+		width:500px;
+	}
+
+	#paragraph-1{
+		float: none;
+	}
+
+	body{
+		margin:auto;
+		/*margin-left: 150px;
+	margin-right: 150px;*/
+	}
+	.main-content{
+		width: 600px;
+	}
+
+	#portpic1{
+	position: static;
+	height: 200px;
+	width: 200px;
+	/*margin-right: 300px;*/
+}
+#portpic2{
+	position: static;
+	height: 200px;
+	width: 200px;
+	/*margin-right: 300px;*/
+}
+#portpic3{
+	height: 200px;
+	width: 200px;
+	position: static;
+	/*margin-right: 300px;*/
+}	
+#portpic4{
+	height: 200px;
+	width: 200px;
+	position: static;
+	/*margin-right: 300px;*/
+}
+#portpic5{
+	height: 200px;
+	width: 200px;
+	position: static;
+	/*margin-right: 300px;*/
+}
+#portpic6{
+	height: 200px;
+	width: 200px;
+	position: static;
+}	
+
+
+.portpics{
+	position: static;
+	height: 200px;
+	width: 200px;
+
+	
+	
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+	.smaller-box{
+		
+		width:650px;
+		/*position: absolute;*/
+		display: block;
+		float:left;
+		position: relative;
+		/*position: static*/
+
+	}
+	#white-box{
+		width: 650px;
+		height: 700px;
+	}
+
+	.main-content{
+		width: 650px;
+		height: 1050px;
+		/*position: relative;*/
+	}
+	.footer{
+		position: absolute;
+		
+		display: block;
+		bottom:-400px;
+		width: 700px;
+		;
+
+		
+	}
+	.header {
+
+    float: right;
+    font-size: 20px;
+    width: 500px;
+}
+.upper {
+	width: 650px;
+}
+#me{
+	float: left;
+	
+	width:200px;
+	padding-right: 20px;
+}
+.connect-pics{
+	display: block;
+	height: 270px;
+	width: 270px;
+
+}
+.portpics{
+	position:absolute;
+	float: left;
+}
+.picsonleft{
+	position: relative;
+}
+.picsonright{
+	position: absolute;
+
+	float: left;
+	display: inline-block;
+}
+/*#portpic1{
+	position:static;
+
+}
+#portpic2{
+	position: absolute;
+	float:left;
+}
+#portpic3{
+	position:static;
+}
+/*#portpic4{
+	position: absolute;
+	float:left;
+}*/
+/*#portpic5{
+	position: absolute;
+	float:left;
+}*/
+*/
+	
+}
+
+@media only screen and (max-width: 640px) {
+
+	header{
+		position: static;
+		display: block;
+		width:600px;
+		margin-bottom: 20px;
+
+	}
+	h1{
+		padding-top: 20px;
+	}
+	a{
+		padding-top: 60px;
+	}
+    
+	.smaller-box{
+		
+		position: static;
+		/*float:left;*/
+		width: 650px;
+		height: 200px;
+		
+	}
+	.main-content, smaller-box, footer{
+		display: block;
+	}
+	img{
+		float: none;
+
+	}
+
+	.connect-pics {
+    margin-left: 100px;
+    height: 250px;
+    width: 250px;
+}
+#me{
+	height: 666px;
+	width: 500px;
+
+}
+#paragraph-1{
+	float: none;
+}
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    height: 70px;
+    padding-left: 250px;
+    margin: auto;
+    width: 600px;
+    
+}
+.main-content{
+	margin-top: 70px;
+	width: 600px;
+	height: 1500px;
+}
+.portpics{
+	margin-left: 150px;
+}
+
+}
+
+
